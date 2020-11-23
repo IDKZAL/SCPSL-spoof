@@ -13,18 +13,18 @@ int main() {
 	printf("\nAre you sure you want to spoof your system? Enter Y or N: \n");
 	printf("\nIt could interfere with other programs that collect HWID information, keep that in mind. \n");
 	scanf(" %c", &answer);
-	printf("\n answer is %c\n", answer);
+	answer = toupper(answer);
+	printf("\nAnswer is %c\n", answer);
 
 	system("TIMEOUT /T 3");
 	system("cls");
 
-	if (answer != 'Y' || answer != 'y') {
-		printf("Spoofing canceled...");
+	if (answer != 'Y') {
+		printf("Spoofing canceled...\n");
 		system("pause");
 		return 0;
-	}
-	else {
-		printf("Spoofing starts in 3 seconds.");;
+	} else {
+		printf("Spoofing starts in 3 seconds.\n");;
 		system("TIMEOUT /T 3");
 		system("cls");
 	}
