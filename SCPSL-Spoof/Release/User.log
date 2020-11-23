@@ -1,6 +1,8 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (User.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   main.c
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(9461,5): warning C5105: macro expansion producing 'defined' has undefined behavior
+  util.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(9461,5): warning C5105: macro expansion producing 'defined' has undefined behavior
   Generating code
   Finished generating code
   User.vcxproj -> C:\GIT\SCPSL-spoof\Release\SCPSL-Spoofer.exe
