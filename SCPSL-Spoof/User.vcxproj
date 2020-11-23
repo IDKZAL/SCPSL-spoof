@@ -49,10 +49,12 @@
     <LinkIncremental>false</LinkIncremental>
     <GenerateManifest>true</GenerateManifest>
     <OutDir>$(SolutionDir)$(Configuration)\$(Platform)\</OutDir>
+    <TargetExt>-x64.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <GenerateManifest>true</GenerateManifest>
+    <TargetExt>-x86.exe</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>

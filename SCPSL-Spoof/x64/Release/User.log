@@ -1,3 +1,5 @@
-﻿  Generating code
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1342,5): warning MSB8012: TargetExt(-x64.exe) does not match the Linker's OutputFile property value (.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1343,5): warning MSB8012: TargetName(SCPSL-Spoofer) does not match the Linker's OutputFile property value (SCPSL-Spoofer-x64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  Generating code
   Finished generating code
-  User.vcxproj -> C:\GIT\SCPSL-spoof\Release\x64\SCPSL-Spoofer.exe
+  User.vcxproj -> C:\GIT\SCPSL-spoof\Release\x64\SCPSL-Spoofer-x64.exe
