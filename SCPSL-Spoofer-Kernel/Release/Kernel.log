@@ -1,0 +1,15 @@
+﻿  Building 'SCPSL-Spoofer-Kernel' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping Release\Kernel.inf
+  Stamping [Version] section with DriverVer=11/25/2020,1.0.0.0
+C:\GIT\SCPSL-spoof\SCPSL-Spoofer-Kernel\Kernel.inf(5-5): warning 1324: [Version] section should specify PnpLockdown=1.
+  Kernel.vcxproj -> C:\GIT\SCPSL-spoof\Release\SCPSL-Spoofer-Kernel.sys
+  Driver is 'Universal'.
+  ........................
+  Signability test failed.
+  
+  Errors:
+  22.9.1: kernel.sys in [drivers_dir] of SCPSL-Spoofer-Kernel\kernel.inf is missing or cannot be decompressed from source media.  Please verify all path values specified in SourceDisksNames, SouceDisksFiles, and CopyFiles sections resolve to the actual location of the file, and are expressed in terms relative to the location of the inf.
+  
+  Warnings:
+  None
+Release\inf2catOutput.log : Inf2Cat error -2: "Inf2Cat, signability test failed." Double click to see the tool output.
