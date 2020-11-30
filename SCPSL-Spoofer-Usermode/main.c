@@ -1,7 +1,7 @@
 #include "stdafx.h"
 
 int main() {
-	srand(GetTickCount());
+	srand(GetTickCount64());
 	LoadLibrary(L"ntdll.dll");
 	NtQueryKey = (NTQK)GetProcAddress(GetModuleHandle(L"ntdll.dll"), "NtQueryKey");
 	if (!AdjustCurrentPrivilege(SE_TAKE_OWNERSHIP_NAME)) {
@@ -243,6 +243,19 @@ int main() {
 	ForceDeleteFile(path);
 
 	wsprintf(path, L"%ws\\Microsoft\\XboxLive\\AuthStateCache.dat", localappdata);
+	ForceDeleteFile(path);
+
+	//SCP SL STUFF
+	wsprintf(path, L"%ws\\Hubert Mozska", localappdata);
+	ForceDeleteFile(path);
+
+	wsprintf(path, L"%ws\\SCP Secret Laboratory\\registry.txt", appdata);
+	ForceDeleteFile(path);
+
+	wsprintf(path, L"%ws\\SCP Secret Laboratory\\CreditsCache.json", appdata);
+	ForceDeleteFile(path);
+
+	wsprintf(path, L"%ws\\SCP Secret Laboratory\\internal", appdata);
 	ForceDeleteFile(path);
 
 	for (DWORD drives = GetLogicalDrives(), drive = L'C', index = 0; drives; drives >>= 1, ++index) {

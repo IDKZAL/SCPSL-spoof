@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SCPSL-Spoofer-Usermode", "SCPSL-Spoofer-Usermode\User.vcxproj", "{82CBF7D9-6CF2-4B1A-9BEC-CAF40175FE5A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SCPSL-Spoofer-Kernel", "SCPSL-Spoofer-Kernel\Kernel.vcxproj", "{ED726B72-C3C8-4092-8350-ADA43CA1CBE0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|Win32 = Release|Win32
@@ -17,10 +15,6 @@ Global
 		{82CBF7D9-6CF2-4B1A-9BEC-CAF40175FE5A}.Release|Win32.Build.0 = Release|Win32
 		{82CBF7D9-6CF2-4B1A-9BEC-CAF40175FE5A}.Release|x64.ActiveCfg = Release|x64
 		{82CBF7D9-6CF2-4B1A-9BEC-CAF40175FE5A}.Release|x64.Build.0 = Release|x64
-		{ED726B72-C3C8-4092-8350-ADA43CA1CBE0}.Release|Win32.ActiveCfg = Release|Win32
-		{ED726B72-C3C8-4092-8350-ADA43CA1CBE0}.Release|Win32.Build.0 = Release|Win32
-		{ED726B72-C3C8-4092-8350-ADA43CA1CBE0}.Release|x64.ActiveCfg = Release|x64
-		{ED726B72-C3C8-4092-8350-ADA43CA1CBE0}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
